@@ -37,8 +37,10 @@ while True:
  
 ## OUTPUT
 client
+
 ![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/fa82ddb3-e494-41b8-9b28-e512ebf38068)
 server
+
 ![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/712bc362-e588-45f6-b65b-2b0e7807a0a3)
 
 
