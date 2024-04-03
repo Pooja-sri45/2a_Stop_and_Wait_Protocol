@@ -10,31 +10,14 @@ To write a python program to perform stop and wait protocol
 6. Stop the Program
 ## PROGRAM
 Client:
+![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/58b88cb3-5605-4f3e-89c5-90822a4d570f)
 
-import socket
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
-while True:
- i=input("Enter a data: ")
- c.send(i.encode())
- ack=c.recv(1024).decode()
- if ack:
-   print(ack)
-   continue
- else:
-   c.close()
-   break
+
 
 Server:
+![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/fd3c99d8-4083-42a0-8416-496432f55345)
 
-   import socket
-s=socket.socket()
-s.connect(('localhost',8000))
-while True:
- print(s.recv(1024).decode())
- s.send("Acknowledgement Recived".encode())
+
  
 ## OUTPUT
 ![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/0aef2af5-c5f3-402e-9c1d-113af630ec37)
