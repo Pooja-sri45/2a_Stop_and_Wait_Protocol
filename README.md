@@ -9,7 +9,8 @@ To write a python program to perform stop and wait protocol
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-client
+Client:
+
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -26,9 +27,8 @@ while True:
    c.close()
    break
 
+Server:
 
-
-server
    import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -37,41 +37,11 @@ while True:
  s.send("Acknowledgement Recived".encode())
  
 ## OUTPUT
-client
+![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/0aef2af5-c5f3-402e-9c1d-113af630ec37)
+![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/9844e879-59e2-4be8-afa4-07bf7f3079ee)
 
-import socket
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
-while True:
- i=input("Enter a data: ")
- c.send(i.encode())
- ack=c.recv(1024).decode()
- if ack:
-   print(ack)
-   continue
- else:
-   c.close()
-   break
-   
-server
 
-import socket
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
-while True:
- i=input("Enter a data: ")
- c.send(i.encode())
- ack=c.recv(1024).decode()
- if ack:
-   print(ack)
-   continue
- else:
-   c.close()
-   break
+ 
 
 
 ## RESULT
