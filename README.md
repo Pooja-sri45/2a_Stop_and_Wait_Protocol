@@ -46,7 +46,9 @@ while True:
  
 ## OUTPUT
 ![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/0fdbc3a6-eec3-46cd-84f2-c819e440886b)
-![Uploading Screenshot 2024-04-04 101641.png…]()
+![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/37ab6e15-278a-49f9-b261-458314c536c9)
+
+
 
 
 
