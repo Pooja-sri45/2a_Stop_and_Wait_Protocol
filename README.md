@@ -45,8 +45,15 @@ while True:
 
  
 ## OUTPUT
-![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/0fdbc3a6-eec3-46cd-84f2-c819e440886b)
-![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/37ab6e15-278a-49f9-b261-458314c536c9)
+
+CLIENT
+![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/de86e197-c94e-46c5-a336-e08de49c3df8)
+
+SERVER
+![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/30e06278-9f78-4a5e-81d0-2f817ca23a05)
+
+
+
 
 
 
