@@ -43,8 +43,12 @@ while True:
 ```
 
 
+
+
+
  
 ## OUTPUT
+
 ![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/1d73e520-1d69-4a94-a045-c644e5a27f83)
 ![image](https://github.com/Pooja-sri45/2a_Stop_and_Wait_Protocol/assets/147081893/35b90471-c691-4b2e-8bb3-3df57af639ec)
 
